@@ -6,5 +6,7 @@ export default defineConfig({
   root: "src",
   test: {
     environment: "happy-dom",
+    setupFiles: ["./setupVitest.js"],
+
   }
 });
